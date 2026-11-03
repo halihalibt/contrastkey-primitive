@@ -2,8 +2,7 @@
 
 A reusable primitive for synthesizing a worst-case optimal identification interview from declared observable properties.
 
-FitCert solves one-to-one allocation by maximum matching; this contract identifies one unknown candidate with adaptive observations. AliasGuard merges entity aliases; this contract neither merges identities nor decides that descriptions name the same object. RunbookLatch and Volta order prerequisites; this contract chooses adaptive branches with a minimax objective.
-
+The identification problem is adaptive: the next useful observation depends on the candidates still possible. Minimax optimization bounds the largest number of questions needed over all supported observation paths. Keeping unknown values in both branches prevents an uncertain property from making the interview appear easier than it is.
 
 Reusable boundary: applications supply small immutable declarations; independent semantic consensus establishes the bounded facts; exact deterministic code emits a conservative certificate or an explicit obstruction. ContrastKey is intentionally restricted to its stated domain.
 
