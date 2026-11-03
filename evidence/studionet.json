@@ -1,0 +1,287 @@
+{
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sourceSha256": "8bac40c496de8e9f4ae1c5dd4daa06bec79a1c7ad26c65058b51a90a02c5831e",
+  "transactions": {
+    "deploy": "0x6c19ff9d0308a76d7b205073b08814e95026930c2b75d335285c3beedbe9e523",
+    "seal": "0x6579fbcc73cc37de3f31a13e1a060decefaf1f9ad80537bbc2a6b71e3e4d7c32",
+    "assess": "0xd021356df0b7736831ada8131bc7c18c17eedfc80bed5115e66bd12665163252",
+    "certify": "0x68baeb4db88de3d553fc4627966f0c4fae0fea151af9dba0923d5178a145b9a3"
+  },
+  "receipts": {
+    "deploy": {
+      "hash": "0x6c19ff9d0308a76d7b205073b08814e95026930c2b75d335285c3beedbe9e523",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnStatus": "return",
+      "successful": true,
+      "contractAddress": "0x73c70ce43985C46b5224df708d36fF4Fd8b9135A",
+      "votes": {
+        "0x336458747913FE397be82c4F0926ACeB3ab13618": "idle",
+        "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "idle",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
+      },
+      "agreeCount": 3,
+      "quorumAgreed": true,
+      "validatorCount": 4,
+      "error": null
+    },
+    "seal": {
+      "hash": "0x6579fbcc73cc37de3f31a13e1a060decefaf1f9ad80537bbc2a6b71e3e4d7c32",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnStatus": "return",
+      "successful": true,
+      "contractAddress": "0x73c70ce43985C46b5224df708d36fF4Fd8b9135A",
+      "votes": {
+        "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "idle",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle"
+      },
+      "agreeCount": 3,
+      "quorumAgreed": true,
+      "validatorCount": 4,
+      "error": null
+    },
+    "assess": {
+      "hash": "0xd021356df0b7736831ada8131bc7c18c17eedfc80bed5115e66bd12665163252",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnStatus": "return",
+      "successful": true,
+      "contractAddress": "0x73c70ce43985C46b5224df708d36fF4Fd8b9135A",
+      "votes": {
+        "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "idle",
+        "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "idle"
+      },
+      "agreeCount": 3,
+      "quorumAgreed": true,
+      "validatorCount": 4,
+      "error": null
+    },
+    "certify": {
+      "hash": "0x68baeb4db88de3d553fc4627966f0c4fae0fea151af9dba0923d5178a145b9a3",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnStatus": "return",
+      "successful": true,
+      "contractAddress": "0x73c70ce43985C46b5224df708d36fF4Fd8b9135A",
+      "votes": {
+        "0x045291B293B9D68969c18B6637A8258038cf787A": "agree",
+        "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "idle",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "idle",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree"
+      },
+      "agreeCount": 3,
+      "quorumAgreed": true,
+      "validatorCount": 4,
+      "error": null
+    }
+  },
+  "deployer": "0x6C0E8589067a617F552Fb71dd7Ae32711EE4bB3F",
+  "address": "0x73c70ce43985C46b5224df708d36fF4Fd8b9135A",
+  "recordId": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f:basic",
+  "sealedReadback": {
+    "id": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f:basic",
+    "input": {
+      "candidates": [
+        "Sensor A has a red casing and a USB port.",
+        "Sensor B has a blue casing and a USB port.",
+        "Sensor C has a red casing and no USB port."
+      ],
+      "questions": [
+        "Does the sensor have a red casing?",
+        "Does the sensor have a USB port?"
+      ],
+      "scope": "Identify one declared fictional sensor by observable ports and casing."
+    },
+    "input_hash": "ebf7a2519ff75c78f70cf47142b232a3906bf2635619f360463c34618e73b022",
+    "owner": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f",
+    "revision": 0,
+    "state": "SEALED"
+  },
+  "assessedReadback": {
+    "accepted": "{\"matrix\":[[\"Y\",\"Y\"],[\"N\",\"Y\"],[\"Y\",\"N\"]]}",
+    "assessment_hash": "0000f80fd496d6987dfd33a5a786c00192173898497251e76cfc5614f49d7ae1",
+    "id": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f:basic",
+    "input": {
+      "candidates": [
+        "Sensor A has a red casing and a USB port.",
+        "Sensor B has a blue casing and a USB port.",
+        "Sensor C has a red casing and no USB port."
+      ],
+      "questions": [
+        "Does the sensor have a red casing?",
+        "Does the sensor have a USB port?"
+      ],
+      "scope": "Identify one declared fictional sensor by observable ports and casing."
+    },
+    "input_hash": "ebf7a2519ff75c78f70cf47142b232a3906bf2635619f360463c34618e73b022",
+    "owner": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f",
+    "proof": {
+      "bellman": [
+        {
+          "candidates": [
+            0
+          ],
+          "depth": 0
+        },
+        {
+          "candidates": [
+            1
+          ],
+          "depth": 0
+        },
+        {
+          "candidates": [
+            2
+          ],
+          "depth": 0
+        },
+        {
+          "candidates": [
+            0,
+            1
+          ],
+          "depth": 1
+        },
+        {
+          "candidates": [
+            0,
+            2
+          ],
+          "depth": 1
+        },
+        {
+          "candidates": [
+            0,
+            1,
+            2
+          ],
+          "depth": 2
+        }
+      ],
+      "indistinguishable_pairs": [],
+      "status": "READY",
+      "tree": {
+        "depth": 2,
+        "no": {
+          "depth": 0,
+          "leaf": 1
+        },
+        "question": 0,
+        "yes": {
+          "depth": 1,
+          "no": {
+            "depth": 0,
+            "leaf": 2
+          },
+          "question": 1,
+          "yes": {
+            "depth": 0,
+            "leaf": 0
+          }
+        }
+      }
+    },
+    "revision": 1,
+    "state": "READY"
+  },
+  "finalReadback": {
+    "accepted": "{\"matrix\":[[\"Y\",\"Y\"],[\"N\",\"Y\"],[\"Y\",\"N\"]]}",
+    "assessment_hash": "0000f80fd496d6987dfd33a5a786c00192173898497251e76cfc5614f49d7ae1",
+    "certificate_hash": "60809c2c88c0c4d344977d6f9a23f2f5a9bb610dcee69f50503b2cfa52f19f7b",
+    "id": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f:basic",
+    "input": {
+      "candidates": [
+        "Sensor A has a red casing and a USB port.",
+        "Sensor B has a blue casing and a USB port.",
+        "Sensor C has a red casing and no USB port."
+      ],
+      "questions": [
+        "Does the sensor have a red casing?",
+        "Does the sensor have a USB port?"
+      ],
+      "scope": "Identify one declared fictional sensor by observable ports and casing."
+    },
+    "input_hash": "ebf7a2519ff75c78f70cf47142b232a3906bf2635619f360463c34618e73b022",
+    "owner": "0x6c0e8589067a617f552fb71dd7ae32711ee4bb3f",
+    "proof": {
+      "bellman": [
+        {
+          "candidates": [
+            0
+          ],
+          "depth": 0
+        },
+        {
+          "candidates": [
+            1
+          ],
+          "depth": 0
+        },
+        {
+          "candidates": [
+            2
+          ],
+          "depth": 0
+        },
+        {
+          "candidates": [
+            0,
+            1
+          ],
+          "depth": 1
+        },
+        {
+          "candidates": [
+            0,
+            2
+          ],
+          "depth": 1
+        },
+        {
+          "candidates": [
+            0,
+            1,
+            2
+          ],
+          "depth": 2
+        }
+      ],
+      "indistinguishable_pairs": [],
+      "status": "READY",
+      "tree": {
+        "depth": 2,
+        "no": {
+          "depth": 0,
+          "leaf": 1
+        },
+        "question": 0,
+        "yes": {
+          "depth": 1,
+          "no": {
+            "depth": 0,
+            "leaf": 2
+          },
+          "question": 1,
+          "yes": {
+            "depth": 0,
+            "leaf": 0
+          }
+        }
+      }
+    },
+    "revision": 2,
+    "state": "CERTIFIED"
+  },
+  "verifiedAt": "2026-11-03T05:59:53.114Z"
+}

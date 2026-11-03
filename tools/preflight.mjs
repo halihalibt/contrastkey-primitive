@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import {createClient} from 'genlayer-js';
+import {studionet} from 'genlayer-js/chains';
+const name=JSON.parse(fs.readFileSync('package.json')).name.replace('-primitive','');
+const client=createClient({chain:studionet,endpoint:'https://studio.genlayer.com/api'});
+const chainId=await client.request({method:'eth_chainId',params:[]});
+const gasPrice=await client.request({method:'eth_gasPrice',params:[]});
+if(Number(BigInt(chainId))!==61999||BigInt(gasPrice)!==0n)throw Error('NETWORK_OR_COST');
+const code=fs.readFileSync(`contracts/${name}.py`,'utf8');
+const schema=await client.getContractSchemaForCode(code);
+fs.writeFileSync('evidence/preflight.json',JSON.stringify({checkedAt:new Date().toISOString(),chainId,gasPrice,sdk:'genlayer-js@1.1.8',schema},null,2));
+console.log(name,'RPC compile PASS',chainId,gasPrice);

@@ -1,0 +1,12 @@
+{
+  "scope": "Identify one declared fictional sensor by observable ports and casing.",
+  "candidates": [
+    "Sensor A has a red casing and a USB port.",
+    "Sensor B has a blue casing and a USB port.",
+    "Sensor C has a red casing and no USB port."
+  ],
+  "questions": [
+    "Does the sensor have a red casing?",
+    "Does the sensor have a USB port?"
+  ]
+}

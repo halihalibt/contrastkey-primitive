@@ -1,0 +1,16 @@
+test_exhaustive_three_candidates_two_questions (test_contract.Algorithm.test_exhaustive_three_candidates_two_questions) ... ok
+test_non_ready_cannot_certify (test_contract.Algorithm.test_non_ready_cannot_certify) ... ok
+test_unknown_is_not_no (test_contract.Algorithm.test_unknown_is_not_no) ... ok
+test_bounded_inputs_and_duplicates (test_contract.Lifecycle.test_bounded_inputs_and_duplicates) ... ok
+test_fail_closed_result_schema (test_contract.Lifecycle.test_fail_closed_result_schema) ... ok
+test_lifecycle_and_terminal (test_contract.Lifecycle.test_lifecycle_and_terminal) ... ok
+test_model_failure_is_atomic (test_contract.Lifecycle.test_model_failure_is_atomic) ... ok
+test_object_json_response (test_contract.Lifecycle.test_object_json_response) ... ok
+test_owner_namespace_conflict_and_revisions (test_contract.Lifecycle.test_owner_namespace_conflict_and_revisions) ... ok
+test_quota (test_contract.Lifecycle.test_quota) ... ok
+test_validator_disagreement_is_atomic (test_contract.Lifecycle.test_validator_disagreement_is_atomic) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.016s
+
+OK

@@ -1,0 +1,1 @@
+Initial constructor-only deployment, superseded after local SDK testing exposed a JSON return-type incompatibility. No semantic assessment or certificate was submitted on this version. Preserved for transaction accounting; never use as the canonical deployment.

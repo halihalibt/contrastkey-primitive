@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-11-03T05:57:09.631Z",
+  "chainId": "0xf22f",
+  "gasPrice": "0x0",
+  "sdk": "genlayer-js@1.1.8",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "assess": {
+        "params": [
+          [
+            "key",
+            "string"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "certify": {
+        "params": [
+          [
+            "key",
+            "string"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      },
+      "get_record": {
+        "params": [
+          [
+            "key",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "protocol": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "seal": {
+        "params": [
+          [
+            "slug",
+            "string"
+          ],
+          [
+            "payload",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "string",
+        "payable": false
+      }
+    }
+  }
+}

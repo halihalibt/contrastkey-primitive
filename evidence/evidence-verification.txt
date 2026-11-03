@@ -1,0 +1,2 @@
+PASS: source bytes, four finalized receipt records, readback, deterministic derivation and all commitments
+Offline validation of recorded RPC evidence; not a fresh consensus execution.

@@ -1,0 +1,31 @@
+{
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sourceSha256": "97abcf65c29ee8856d5a9c8b899c138b44a076f76f186d4d9a721d9e716345a4",
+  "transactions": {
+    "deploy": "0xc48f8a32baf1bc235ae8704543b19cbe4b0f45d0c895ccfa38259d3e53021ed1"
+  },
+  "receipts": {
+    "deploy": {
+      "hash": "0xc48f8a32baf1bc235ae8704543b19cbe4b0f45d0c895ccfa38259d3e53021ed1",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnStatus": "return",
+      "successful": true,
+      "contractAddress": "0xfd4f322Ff1d77b9B64017C0192925A2899B0d5E6",
+      "votes": {
+        "0x045291B293B9D68969c18B6637A8258038cf787A": "idle",
+        "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "idle",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+      },
+      "agreeCount": 3,
+      "quorumAgreed": true,
+      "validatorCount": 4,
+      "error": null
+    }
+  },
+  "deployer": "0x6C0E8589067a617F552Fb71dd7Ae32711EE4bB3F",
+  "address": "0xfd4f322Ff1d77b9B64017C0192925A2899B0d5E6"
+}
